@@ -1,14 +1,25 @@
 #!/usr/bin/env python3
+
+
 def add(x,y):
 	return x+y
 
 def main():
-	num1 = int(input("Enter Num1: "))
+	try:
 
-	num2 = int(input("Enter Num2: "))
+	   num1,num2=(input("enter 2 number")).split( )
+	   w=int(num1)
+	   n=int(num2)
+	   z = add(w,n)
+	   print("The SUM : ",z)
 
-	z = add(num1,num2)
+	except (ValueError):
+	   print("Please input  2 numbers !")
 
-	print("The SUM : ",z)
+	   num1,num2=(input("enter 2 number")).split( )
+	   w=int(num1)
+	   n=int(num2)
+	   z = add(w,n)
+	   print("The SUM : ",z)
 
 main()
