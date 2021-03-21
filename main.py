@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
 
+<<<<<<< HEAD
 def mul(x,y):
 	return x*y
+=======
+def sum(x,y):
+	return x+y
+>>>>>>> 21256527c7d6e76b83cd4f5f9bcf27951c06132d
 
 
 try:
@@ -21,8 +26,13 @@ except (ValueError):
 
 
 if (choice== "yes" ):
+<<<<<<< HEAD
   	z=mul(w,n)
   	print("The Multiplication : ",z)
+=======
+  	z=sum(w,n)
+  	print("The sum : ",z)
+>>>>>>> 21256527c7d6e76b83cd4f5f9bcf27951c06132d
 
 else:
       print("1 num",w)
